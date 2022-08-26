@@ -1,0 +1,9 @@
+ctx.fillStyle = color;
+ctx.rect(0,0,SIZE_CV.wid,SIZE_CV.hei);
+ctx.fill();
+
+or
+
+ctx.fillStyle = color;
+ctx.fillRect(0,0,SIZE_CV.wid,SIZE_CV.hei);
+

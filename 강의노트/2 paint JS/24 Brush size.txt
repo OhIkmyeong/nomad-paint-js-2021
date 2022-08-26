@@ -1,0 +1,3 @@
+range.addEventListener('input',(e)=>{
+    const val = e.target.value;
+})

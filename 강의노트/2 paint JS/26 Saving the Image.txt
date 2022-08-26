@@ -1,0 +1,6 @@
+canvas.toDataURL('image/png');
+
+asdf = document.createElement('A');
+asdf.href = canvas.toDataURL('image/png');
+asdf.download = "디폴트 파일명";
+asdf.click();

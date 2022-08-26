@@ -1,0 +1,24 @@
+git ignore : node
+
+터미널에선
+
+git clone https://github.com/OhIkmyeong/ovwPatch
+
+
+// 제대로 된 순서
+https://wepplication.github.io/programming/github-pages/
+
+1) git에서 먼저 reposit만들어줌
+1-1) git ignore - node 로 만들고
+1-2) readme.md 추가로 하고
+
+2) 그 다음에 작업할 폴더에서 터미널로 
+git clone https://github.com/OhIkmyeong/ovwPatch
+함
+그럼 깃허브에서 있던 기본 파일들이 내 로컬 폴더로 생성됨
+
+3) 2번에서 생성된 폴더에서 작업하고 나중에 원격저장소에 Push할 때
+git add .
+git commit -m "commit comment"
+git push
+해주면 됩니다.
